@@ -2,6 +2,11 @@
 name = "mati-adventure"
 version = "0.1.0"
 
+[files]
+client = ["client/*"]
+server = ["server/*"]
+common = ["common/*"]
+
 [enviroment]
 minecraft = "1.21.1"
 fabric = "0.16.10"
@@ -124,6 +129,7 @@ no-telemetry = { version = "1.8.0", side = "client" }
 dcwa = { version = "6.0", side = "client" }
 modonomicon = { version = "1.21.1-1.111.2", side = "both" }
 patchouli = { version = "1.21-87-fabric", side = "both" }
+yosbr = { version = "0.1.2", side = "both" }
 
 # Maps and Navigation
 xaeros-world-map = { version = "1.39.2_Fabric_1.21", side = "client" }
