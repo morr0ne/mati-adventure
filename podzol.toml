@@ -3,8 +3,6 @@ name = "mati-adventure"
 version = "0.1.0"
 
 [files]
-client = ["client/*"]
-server = ["server/*"]
 common = ["common/*"]
 
 [enviroment]
@@ -12,9 +10,9 @@ minecraft = "1.21.1"
 fabric = "0.16.10"
 
 [resource-packs]
-fresh-animations = { version = "1.9.2", side = "client" }
-enchant-icons-countxd = { version = "v1.3", side = "client" }
-better-flame-particles = { version = "2.2", side = "client" }
+fresh-animations = { version = "1.9.2", side = "both" }
+enchant-icons-countxd = { version = "v1.3", side = "both" }
+better-flame-particles = { version = "2.2", side = "both" }
 
 [mods]
 # Core fabric stuff
@@ -34,8 +32,8 @@ owo-lib = { version = "0.12.15+1.21", side = "both" }
 prickle = { version = "21.1.6", side = "both" }
 sparkweave = { version = "0.507.0+Fabric", side = "both" }
 midnightlib = { version = "1.6.7+1.21.1-fabric", side = "both" }
-iceberg = { version = "1.2.9.2", side = "client" }
-prism-lib = { version = "1.0.9", side = "client" }
+iceberg = { version = "1.2.9.2", side = "both" }
+prism-lib = { version = "1.0.9", side = "both" }
 wunderlib = { version = "21.0.8", side = "both" }
 worldweaver = { version = "21.0.13", side = "both" }
 collective = { version = "1.21.1-7.87-fabric+forge+neo", side = "both" }
@@ -48,7 +46,7 @@ yungs-api = { version = "1.21.1-Fabric-5.1.3", side = "both" }
 
 # Features
 friends-and-foes = { version = "fabric-mc1.21.1-3.0.7", side = "both" }
-female-gender = { version = "3.2.1+1.21", side = "client" }
+female-gender = { version = "3.2.1+1.21", side = "both" }
 dark-paintings = { version = "21.1.2", side = "both" }
 items-displayed = { version = "1.3-1.21.1", side = "both" }
 elytra-trims = { version = "3.5.6", side = "both" }
@@ -74,122 +72,122 @@ natures-spirit = { version = "2.1.0-1.21.1", side = "both" }
 # World Generation and Structures
 terralith = { version = "2.5.8", side = "both" }
 remove-terralith-intro-message = { version = "1.1+mod", side = "both" }
-yungs-better-dungeons = { version = "1.21.1-Fabric-5.1.4", side = "server" }
-yungs-better-mineshafts = { version = "1.21.1-Fabric-5.1.1", side = "server" }
-yungs-better-ocean-monuments = { version = "1.21.1-Fabric-4.1.2", side = "server" }
-yungs-better-strongholds = { version = "1.21.1-Fabric-5.1.2", side = "server" }
-yungs-better-witch-huts = { version = "1.21.1-Fabric-4.1.1", side = "server" }
-yungs-better-jungle-temples = { version = "1.21.1-Fabric-3.1.2", side = "server" }
-yungs-bridges = { version = "1.21.1-Fabric-5.1.1", side = "server" }
-yungs-extras = { version = "1.21.1-Fabric-5.1.1", side = "server" }
+yungs-better-dungeons = { version = "1.21.1-Fabric-5.1.4", side = "both" }
+yungs-better-mineshafts = { version = "1.21.1-Fabric-5.1.1", side = "both" }
+yungs-better-ocean-monuments = { version = "1.21.1-Fabric-4.1.2", side = "both" }
+yungs-better-strongholds = { version = "1.21.1-Fabric-5.1.2", side = "both" }
+yungs-better-witch-huts = { version = "1.21.1-Fabric-4.1.1", side = "both" }
+yungs-better-jungle-temples = { version = "1.21.1-Fabric-3.1.2", side = "both" }
+yungs-bridges = { version = "1.21.1-Fabric-5.1.1", side = "both" }
+yungs-extras = { version = "1.21.1-Fabric-5.1.1", side = "both" }
 better-archeology = { version = "1.3.1", side = "both" }
 chunky = { version = "1.4.16", side = "both" }
 
 # Visual Enhancements
-detail-armor-bar = { version = "2.6.3+1.21.1-fabric", side = "client" }
-better-ping-display-fabric = { version = "1.21.1-1.1.1", side = "client" }
-better-advancements = { version = "0.4.3.21", side = "client" }
+detail-armor-bar = { version = "2.6.3+1.21.1-fabric", side = "both" }
+better-ping-display-fabric = { version = "1.21.1-1.1.1", side = "both" }
+better-advancements = { version = "0.4.3.21", side = "both" }
 appleskin = { version = "3.0.6+mc1.21", side = "both" }
-advancement-plaques = { version = "1.6.8", side = "client" }
-legendary-tooltips = { version = "1.4.11", side = "client" }
-not-enough-animations = { version = "1.9.1", side = "client" }
+advancement-plaques = { version = "1.6.8", side = "both" }
+legendary-tooltips = { version = "1.4.11", side = "both" }
+not-enough-animations = { version = "1.9.1", side = "both" }
 icarus = { version = "4.3.0+Fabric", side = "both" }
-clean-f3 = { version = "0.4.9", side = "client" }
-entity-model-features = { version = "2.4.1", side = "client" }
-entitytexturefeatures = { version = "6.2.9", side = "client" }
-explosive-enhancement = { version = "1.3.2-1.21-1.21.1", side = "client" }
+clean-f3 = { version = "0.4.9", side = "both" }
+entity-model-features = { version = "2.4.1", side = "both" }
+entitytexturefeatures = { version = "6.2.9", side = "both" }
+explosive-enhancement = { version = "1.3.2-1.21-1.21.1", side = "both" }
 
 # Inventory Management
 trinkets = { version = "3.10.0", side = "both" }
 elytra-slot = { version = "9.0.1+1.21.1", side = "both" }
 charm-of-undying = { version = "9.1.0+1.21.1", side = "both" }
-stack-to-nearby-chests = { version = "0.5.10", side = "client" }
+stack-to-nearby-chests = { version = "0.5.10", side = "both" }
 reinforced-chests = { version = "3.1.1+1.21.1", side = "both" }
-itemlocks = { version = "1.21-1.3.9", side = "client" }
+itemlocks = { version = "1.21-1.3.9", side = "both" }
 
 # Information Display
 jade = { version = "15.9.3+fabric", side = "both" }
-boat-item-view = { version = "1.21-1.21.1-0.0.6-fabric", side = "client" }
-chat-heads = { version = "0.13.12", side = "client" }
+boat-item-view = { version = "1.21-1.21.1-0.0.6-fabric", side = "both" }
+chat-heads = { version = "0.13.12", side = "both" }
 
 # Recipe and Crafting
 emi = { version = "1.1.19+1.21.1+fabric", side = "both" }
 emi-loot = { version = "0.7.5+1.21+fabric", side = "both" }
-emi-enchanting = { version = "0.1.2+1.21", side = "client" }
+emi-enchanting = { version = "0.1.2+1.21", side = "both" }
 mastercutter = { version = "1.3.1+1.21+mod", side = "both" }
-justenoughbreeding = { version = "1.5.0", side = "client" }
+justenoughbreeding = { version = "1.5.0", side = "both" }
 
 # Controls and Input
-midnightcontrols = { version = "1.10.0-fabric", side = "client" }
-midnightcontrols-extra = { version = "1.0.0", side = "client" }
+midnightcontrols = { version = "1.10.0-fabric", side = "both" }
+midnightcontrols-extra = { version = "1.0.0", side = "both" }
 
 # Settings and Configuration
-modmenu = { version = "11.0.3", side = "client" }
-no-telemetry = { version = "1.8.0", side = "client" }
-dcwa = { version = "6.0", side = "client" }
+modmenu = { version = "11.0.3", side = "both" }
+no-telemetry = { version = "1.8.0", side = "both" }
+dcwa = { version = "6.0", side = "both" }
 modonomicon = { version = "1.21.1-1.111.2", side = "both" }
 patchouli = { version = "1.21-87-fabric", side = "both" }
 yosbr = { version = "0.1.2", side = "both" }
 
 # Maps and Navigation
-xaeros-world-map = { version = "1.39.2_Fabric_1.21", side = "client" }
-xaeros-minimap = { version = "25.0.0_Fabric_1.21", side = "client" }
+xaeros-world-map = { version = "1.39.2_Fabric_1.21", side = "both" }
+xaeros-minimap = { version = "25.0.0_Fabric_1.21", side = "both" }
 dynamap = { version = "3.7-beta-8", side = "both" }
 
 # Combat and Mob Improvements
-dragon-drops-elytra = { version = "1.21.1-3.4-fabric+forge+neo", side = "server" }
+dragon-drops-elytra = { version = "1.21.1-3.4-fabric+forge+neo", side = "both" }
 useless-reptile = { version = "0.9.7-1.21.1", side = "both" }
-better-spawner-control = { version = "1.21.1-4.6-fabric+forge+neo", side = "server" }
+better-spawner-control = { version = "1.21.1-4.6-fabric+forge+neo", side = "both" }
 mobs-of-mythology = { version = "2.1.0", side = "both" }
-shulker-drops-two = { version = "1.21.1-3.4-fabric+forge+neo", side = "server" }
+shulker-drops-two = { version = "1.21.1-3.4-fabric+forge+neo", side = "both" }
 
 # Audio and Communication
-cat_jam = { version = "1.3.1", side = "client" }
-audioplayer = { version = "fabric-1.21.1-1.13.2", side = "server" }
+cat_jam = { version = "1.3.1", side = "both" }
+audioplayer = { version = "fabric-1.21.1-1.13.2", side = "both" }
 simple-voice-chat = { version = "fabric-1.21.1-2.5.27", side = "both" }
 
 # Game Mechanics
-dismount-entity = { version = "1.21.1-3.5-fabric+forge+neo", side = "server" }
-healing-campfire = { version = "1.21.1-6.1-fabric+forge+neo", side = "server" }
+dismount-entity = { version = "1.21.1-3.5-fabric+forge+neo", side = "both" }
+healing-campfire = { version = "1.21.1-6.1-fabric+forge+neo", side = "both" }
 yigd = { version = "2.4.14", side = "both" }
 tax-free-levels = { version = "1.4.7", side = "both" }
-rightclickharvest = { version = "4.5.0+1.21.1", side = "server" }
+rightclickharvest = { version = "4.5.0+1.21.1", side = "both" }
 dwdsb = { version = "1.6.2", side = "both" }
 
 # Decoration and Building
 clutter = { version = "1.21.1-0.6.4", side = "both" }
 
 # Gameplay Tweaks
-infinite-trading = { version = "1.21.1-4.5-fabric+forge+neo", side = "server" }
-capes = { version = "1.5.4+1.21", side = "client" }
+infinite-trading = { version = "1.21.1-4.5-fabric+forge+neo", side = "both" }
+capes = { version = "1.5.4+1.21", side = "both" }
 
 # Sodium Suite
-sodium = { version = "mc1.21.1-0.6.5-fabric", side = "client" }
-sodium-extra = { version = "mc1.21.1-0.6.0+fabric", side = "client" }
-sodium-extras = { version = "fabric-1.21.1-1.0.7", side = "client" }
-sodium-options-api = { version = "fabric-1.21.1-1.0.10", side = "client" }
-sodium-options-mod-compat = { version = "fabric-1.21.1-1.0.0", side = "client" }
-reeses-sodium-options = { version = "mc1.21.4-1.8.3+fabric", side = "client" }
-sodiumleafculling = { version = "1.0.0", side = "client" }
-sodium-dynamic-lights = { version = "fabric-1.21.1-1.0.10", side = "client" }
-iris = { version = "1.8.1+1.21.1-fabric", side = "client" }
+sodium = { version = "mc1.21.1-0.6.5-fabric", side = "both" }
+sodium-extra = { version = "mc1.21.1-0.6.0+fabric", side = "both" }
+sodium-extras = { version = "fabric-1.21.1-1.0.7", side = "both" }
+sodium-options-api = { version = "fabric-1.21.1-1.0.10", side = "both" }
+sodium-options-mod-compat = { version = "fabric-1.21.1-1.0.0", side = "both" }
+reeses-sodium-options = { version = "mc1.21.4-1.8.3+fabric", side = "both" }
+sodiumleafculling = { version = "1.0.0", side = "both" }
+sodium-dynamic-lights = { version = "fabric-1.21.1-1.0.10", side = "both" }
+iris = { version = "1.8.1+1.21.1-fabric", side = "both" }
 
 # Game Optimizations
 lithium = { version = "mc1.21.1-0.14.7-fabric", side = "both" }
-entityculling = { version = "1.7.2", side = "client" }
+entityculling = { version = "1.7.2", side = "both" }
 ferrite-core = { version = "7.0.2-hotfix-fabric", side = "both" }
-immediatelyfast = { version = "1.3.4+1.21.1-fabric", side = "client" }
+immediatelyfast = { version = "1.3.4+1.21.1-fabric", side = "both" }
 modernfix = { version = "5.20.2+mc1.21.1", side = "both" }
 vmp-fabric = { version = "0.2.0+beta.7.169+1.21.1", side = "both" }
 
 # Network and Loading
 krypton = { version = "0.2.8", side = "both" }
-ebe = { version = "0.10.2+1.21", side = "client" }
-# c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "server" }
-badoptimizations = { version = "2.2.1", side = "client" }
+ebe = { version = "0.10.2+1.21", side = "both" }
+# c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "both" }
+badoptimizations = { version = "2.2.1", side = "both" }
 
 # Misc
-puzzle = { version = "2.0.1-fabric", side = "client" }
+puzzle = { version = "2.0.1-fabric", side = "both" }
 quad = { version = "1.2.9+1.21.1-Fabric", side = "both" }
-simple-discord-rpc = { version = "3.3.3", side = "client" }
+simple-discord-rpc = { version = "3.3.3", side = "both" }
 carpet = { version = "1.4.147", side = "both" }
