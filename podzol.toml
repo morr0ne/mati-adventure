@@ -7,41 +7,126 @@ minecraft = "1.21.1"
 fabric = "0.16.10"
 
 [mods]
-appleskin = { version = "3.0.6+mc1.21", side = "both" }
-badoptimizations = { version = "2.2.1", side = "client" }
-c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "server" }
-capes = { version = "1.5.4+1.21", side = "client" }
-chat-heads = { version = "0.13.11", side = "client" }
-ebe = { version = "0.10.2+1.21", side = "client" }
-elytra-slot = { version = "9.0.1+1.21.1", side = "both" }
-entityculling = { version = "1.7.2", side = "client" }
+# Core fabric stuff
 fabric-api = { version = "0.115.0+1.21.1", side = "both" }
 fabric-language-kotlin = { version = "1.13.1+kotlin.2.1.10", side = "both" }
-ferrite-core = { version = "7.0.2-hotfix-fabric", side = "both" }
-immediatelyfast = { version = "1.3.4+1.21.1-fabric", side = "client" }
-iris = { version = "1.8.1+1.21.1-fabric", side = "client" }
-krypton = { version = "0.2.8", side = "both" }
-lithium = { version = "mc1.21.1-0.14.7-fabric", side = "both" }
-modernfix = { version = "5.20.2+mc1.21.1", side = "both" }
-modmenu = { version = "11.0.3", side = "client" }
+
+# Libraries
 placeholder-api = { version = "2.4.2+1.21", side = "both" }
-reeses-sodium-options = { version = "mc1.21.4-1.8.3+fabric", side = "client" }
+common-network = { version = "1.0.18-1.21.1", side = "both" }
+txnilib = { version = "fabric-1.21.1-1.0.22", side = "both" }
+bookshelf-lib = { version = "21.1.48", side = "both" }
+resourceful-lib = { version = "3.0.11", side = "both" }
+resourceful-config = { version = "3.0.9", side = "both" }
+fzzy-config = { version = "0.6.4+1.21", side = "both" }
+yacl = { version = "3.6.2+1.21-fabric", side = "both" }
+owo-lib = { version = "0.12.15+1.21", side = "both" }
+prickle = { version = "21.1.6", side = "both" }
+sparkweave = { version = "0.507.0+Fabric", side = "both" }
+midnightlib = { version = "1.6.7+1.21.1-fabric", side = "both" }
+iceberg = { version = "1.2.9.2", side = "client" }
+prism-lib = { version = "1.0.9", side = "client" }
+wunderlib = { version = "21.0.8", side = "both" }
+worldweaver = { version = "21.0.13", side = "both" }
+collective = { version = "1.21.1-7.87-fabric+forge+neo", side = "both" }
+craterlib = { version = "1.21-2.1.3", side = "both" }
+
+# Features
+friends-and-foes = { version = "fabric-mc1.21.1-3.0.7", side = "both" }
+female-gender = { version = "3.2.1+1.21", side = "client" }
+dark-paintings = { version = "21.1.2", side = "both" }
+items-displayed = { version = "1.3-1.21.1", side = "both" }
+elytra-trims = { version = "3.5.6", side = "both" }
+advanced-netherite = { version = "fabric-2.2.1-mc1.21.1", side = "both" }
+natures-compass = { version = "1.21.1-2.2.7-fabric", side = "both" }
+
+# Block Variants
+more-chest-variants-lieonlion = { version = "1.5.6+1.21-Fabric", side = "both" }
+more-crafting-tables-lieonlion = { version = "1.2.8+1.21-Fabric", side = "both" }
+more-composter-variants = { version = "1.7.3", side = "both" }
+
+# Dimension Mods
+aether = { version = "1.21.1-1.5.3-fabric", side = "both" }
+the-bumblezone-fabric = { version = "7.7.17+1.21.1-fabric", side = "both" }
+betterend = { version = "21.0.11", side = "both" }
+betternether = { version = "21.0.11", side = "both" }
+
+# Biome Libraries
+bclib = { version = "21.0.13", side = "both" }
+terrablender = { version = "4.1.0.8", side = "both" }
+
+# World Generation
+terralith = { version = "2.5.8", side = "both" }
+remove-terralith-intro-message = { version = "1.1+mod", side = "both" }
+
+# Shaders and Graphics
+iris = { version = "1.8.1+1.21.1-fabric", side = "client" }
 sodium-dynamic-lights = { version = "fabric-1.21.1-1.0.10", side = "client" }
+
+
+# Visual Enhancements
+detail-armor-bar = { version = "2.6.3+1.21.1-fabric", side = "client" }
+better-ping-display-fabric = { version = "1.21.1-1.1.1", side = "client" }
+better-advancements = { version = "0.4.3.21", side = "client" }
+appleskin = { version = "3.0.6+mc1.21", side = "both" }
+advancement-plaques = { version = "1.6.8", side = "client" }
+legendary-tooltips = { version = "1.4.11", side = "client" }
+not-enough-animations = { version = "1.9.1", side = "client" }
+icarus = { version = "4.3.0+Fabric", side = "both" }
+
+# Inventory Management
+trinkets = { version = "3.10.0", side = "both" }
+elytra-slot = { version = "9.0.1+1.21.1", side = "both" }
+charm-of-undying = { version = "9.1.0+1.21.1", side = "both" }
+
+# Information Display
+jade = { version = "15.9.3+fabric", side = "both" }
+boat-item-view = { version = "1.21-1.21.1-0.0.6-fabric", side = "client" }
+chat-heads = { version = "0.13.11", side = "client" }
+
+# Recipe and Crafting
+emi = { version = "1.1.19+1.21.1+fabric", side = "both" }
+emi-loot = { version = "0.7.5+1.21+fabric", side = "both" }
+emi-enchanting = { version = "0.1.2+1.21", side = "client" }
+mastercutter = { version = "1.3.1+1.21+mod", side = "both" }
+justenoughbreeding = { version = "1.5.0", side = "client" }
+
+# Controls and Input
+midnightcontrols = { version = "1.10.0-fabric", side = "client" }
+midnightcontrols-extra = { version = "1.0.0", side = "client" }
+
+# Settings and Configuration
+modmenu = { version = "11.0.3", side = "client" }
+no-telemetry = { version = "1.8.0", side = "client" }
+dcwa = { version = "6.0", side = "client" }
+
+# Gameplay Tweaks
+infinite-trading = { version = "1.21.1-4.5-fabric+forge+neo", side = "server" }
+capes = { version = "1.5.4+1.21", side = "client" }
+
+# Sodium Suite
+sodium = { version = "mc1.21.1-0.6.5-fabric", side = "client" }
 sodium-extra = { version = "mc1.21.1-0.6.0+fabric", side = "client" }
 sodium-extras = { version = "fabric-1.21.1-1.0.7", side = "client" }
 sodium-options-api = { version = "fabric-1.21.1-1.0.10", side = "client" }
 sodium-options-mod-compat = { version = "fabric-1.21.1-1.0.0", side = "client" }
-sodium = { version = "mc1.21.1-0.6.5-fabric", side = "client" }
+reeses-sodium-options = { version = "mc1.21.4-1.8.3+fabric", side = "client" }
 sodiumleafculling = { version = "1.0.0", side = "client" }
-trinkets = { version = "3.10.0", side = "both" }
-txnilib = { version = "fabric-1.21.1-1.0.22", side = "both" }
-charm-of-undying = { version = "9.1.0+1.21.1", side = "both" }
-better-advancements = { version = "0.4.3.21", side = "client" }
-not-enough-animations = { version = "1.9.1", side = "client" }
-jade = { version = "15.9.3+fabric", side = "both" }
-emi = { version = "1.1.19+1.21.1+fabric", side = "both" }
-yacl = { version = "3.6.2+1.21-fabric", side = "both" }
-midnightcontrols = { version = "1.10.0-fabric", side = "client" }
-midnightcontrols-extra = { version = "1.0.0", side = "client" }
-midnightlib = { version = "1.6.7+1.21.1-fabric", side = "both" }
-better-ping-display-fabric = { version = "1.21.1-1.1.1", side = "client" }
+
+# Game Optimizations
+lithium = { version = "mc1.21.1-0.14.7-fabric", side = "both" }
+entityculling = { version = "1.7.2", side = "client" }
+ferrite-core = { version = "7.0.2-hotfix-fabric", side = "both" }
+immediatelyfast = { version = "1.3.4+1.21.1-fabric", side = "client" }
+modernfix = { version = "5.20.2+mc1.21.1", side = "both" }
+
+# Network and Loading
+krypton = { version = "0.2.8", side = "both" }
+ebe = { version = "0.10.2+1.21", side = "client" }
+c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "server" }
+badoptimizations = { version = "2.2.1", side = "client" }
+
+## Misc
+puzzle = { version = "2.0.1-fabric", side = "client" }
+quad = { version = "1.2.9+1.21.1-Fabric", side = "both" }
+simple-discord-rpc = { version = "3.3.3", side = "client" }
