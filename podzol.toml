@@ -6,6 +6,11 @@ version = "0.1.0"
 minecraft = "1.21.1"
 fabric = "0.16.10"
 
+[resource-packs]
+fresh-animations = { version = "1.9.2", side = "client" }
+enchant-icons-countxd = { version = "v1.3", side = "client" }
+better-flame-particles = { version = "2.2", side = "client" }
+
 [mods]
 # Core fabric stuff
 fabric-api = { version = "0.115.0+1.21.1", side = "both" }
@@ -82,7 +87,7 @@ charm-of-undying = { version = "9.1.0+1.21.1", side = "both" }
 # Information Display
 jade = { version = "15.9.3+fabric", side = "both" }
 boat-item-view = { version = "1.21-1.21.1-0.0.6-fabric", side = "client" }
-chat-heads = { version = "0.13.11", side = "client" }
+chat-heads = { version = "0.13.12", side = "client" }
 
 # Recipe and Crafting
 emi = { version = "1.1.19+1.21.1+fabric", side = "both" }
@@ -123,7 +128,7 @@ modernfix = { version = "5.20.2+mc1.21.1", side = "both" }
 # Network and Loading
 krypton = { version = "0.2.8", side = "both" }
 ebe = { version = "0.10.2+1.21", side = "client" }
-c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "server" }
+# c2me-fabric = { version = "0.3.0+alpha.0.314+1.21.1", side = "server" }
 badoptimizations = { version = "2.2.1", side = "client" }
 
 ## Misc
@@ -143,3 +148,20 @@ modonomicon = { version = "1.21.1-1.111.2", side = "both" }
 patchouli = { version = "1.21-87-fabric", side = "both" }
 dynamap = { version = "3.7-beta-8", side = "both" }
 chunky = { version = "1.4.16", side = "both" }
+entity-model-features = { version = "2.4.1", side = "client" }
+xaeros-minimap = { version = "25.0.0_Fabric_1.21", side = "client" }
+vmp-fabric = { version = "0.2.0+beta.7.169+1.21.1", side = "both" }
+rightclickharvest = { version = "4.5.0+1.21.1", side = "server" }
+clean-f3 = { version = "0.4.9", side = "client" }
+dismount-entity = { version = "1.21.1-3.5-fabric+forge+neo", side = "server" }
+healing-campfire = { version = "1.21.1-6.1-fabric+forge+neo", side = "server" }
+yungs-api = { version = "1.21.1-Fabric-5.1.3", side = "both" }
+yungs-better-dungeons = { version = "1.21.1-Fabric-5.1.4", side = "server" }
+yungs-better-mineshafts = { version = "1.21.1-Fabric-5.1.1", side = "server" }
+yungs-better-ocean-monuments = { version = "1.21.1-Fabric-4.1.2", side = "server" }
+yungs-better-strongholds = { version = "1.21.1-Fabric-5.1.2", side = "server" }
+yungs-better-witch-huts = { version = "1.21.1-Fabric-4.1.1", side = "server" }
+yungs-better-jungle-temples = { version = "1.21.1-Fabric-3.1.2", side = "server" }
+yungs-bridges = { version = "1.21.1-Fabric-5.1.1", side = "server" }
+yungs-extras = { version = "1.21.1-Fabric-5.1.1", side = "server" }
+entitytexturefeatures = { version = "6.2.9", side = "client" }
