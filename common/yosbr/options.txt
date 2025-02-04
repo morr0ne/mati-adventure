@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","fabric","file/FreshAnimations_v1.9.2.zip","file/enchant icons 1.21 v1.3.zip","file/better_flame_particles-v2.2-mc1.14x-1.21x-resourcepack.zip","natures_spirit:emissive_ores_compatibility","black_icons"]
