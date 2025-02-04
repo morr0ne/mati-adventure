@@ -130,3 +130,16 @@ badoptimizations = { version = "2.2.1", side = "client" }
 puzzle = { version = "2.0.1-fabric", side = "client" }
 quad = { version = "1.2.9+1.21.1-Fabric", side = "both" }
 simple-discord-rpc = { version = "3.3.3", side = "client" }
+
+# Needs categorization
+xaeros-world-map = { version = "1.39.2_Fabric_1.21", side = "client" }
+tax-free-levels = { version = "1.4.7", side = "both" }
+itemlocks = { version = "1.21-1.3.9", side = "client" }
+reinforced-chests = { version = "3.1.1+1.21.1", side = "both" }
+natures-spirit = { version = "2.1.0-1.21.1", side = "both" }
+stack-to-nearby-chests = { version = "0.5.10", side = "client" }
+carpet = { version = "1.4.147", side = "server" }
+modonomicon = { version = "1.21.1-1.111.2", side = "both" }
+patchouli = { version = "1.21-87-fabric", side = "both" }
+dynamap = { version = "3.7-beta-8", side = "both" }
+chunky = { version = "1.4.16", side = "both" }
